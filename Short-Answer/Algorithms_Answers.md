@@ -2,7 +2,7 @@ Add your answers to the Algorithms exercises here.
 
 ## Exercise I
 
-a) is Linear time: O(n) because it counts upwards but only executes a constant time line. As (n) increases, time increases.
+a) is Linear time: O(n) because it counts upwards but only executes a constant time line. As (n) increases, time increases. Technically, we are multiplying n\*n in the constant assignment for a, but that only gets added to a. That comes to a + whatever number, which is still linear.
 
 b) is quadradic time: O(n^2). Every time the outer loop executes, the loops on the inside keep running for every (n) that the outer loop executes.
 
